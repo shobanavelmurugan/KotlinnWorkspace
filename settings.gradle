@@ -1,2 +1,2 @@
-include ':app', ':googlessologin'
+include ':googlessologin', ':roomdatabase', ':mvvmrecyclerview'
 rootProject.name='KotlinnApp'

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590914424684",
+    "firebase_url": "https://signinloginexample.firebaseio.com",
+    "project_id": "signinloginexample",
+    "storage_bucket": "signinloginexample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590914424684:android:a4ca38b4fd97ff6a9bed49",
+        "android_client_info": {
+          "package_name": "com.ibot.cyranosystems.googlesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590914424684-vcp2g3tgokps3hg3sm6a3snhr02ei1pi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibot.cyranosystems.googlesignin",
+            "certificate_hash": "6e3b59662b8f95a5b45ec6eeeaf52c057b1bb1cf"
+          }
+        },
+        {
+          "client_id": "590914424684-7sc1csqpt57slnfrk2it1ck6e7r2u2tm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3LSqBBqMJOblhdK9E4V6pQaluDZLBAO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590914424684-feruui97dmeitiggtqf4nhkf13tjd3lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

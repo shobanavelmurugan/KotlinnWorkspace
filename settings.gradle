@@ -1,2 +1,8 @@
+include ':nestednavigationexample'
+include ':roomdemo'
+include ':navigationgraphanddeeplink'
+include ':camerax'
+include ':navigationsample'
 include ':googlessologin', ':roomdatabase', ':mvvmrecyclerview'
 rootProject.name='KotlinnApp'
+include ':mycontact'

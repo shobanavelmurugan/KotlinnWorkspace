@@ -18,22 +18,22 @@ class WordsFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_words, container, false)
     }
 
-    override fun onViewCreated(view: View, savedState: Bundle?) {
+   /* override fun onViewCreated(view: View, savedState: Bundle?) {
         super.onViewCreated(view, savedState)
-//        val adapter = WordListAdapter(view.context)
-//
-//        adapter.registerAdapterDataObserver(object : RecyclerView.AdapterDataObserver() {
-//            override fun onChanged() {
-//                super.onChanged()
-//                emptyView.visibility = if (adapter.itemCount == 0) View.VISIBLE else View.INVISIBLE
-//            }
-//        })
+        val adapter = WordListAdapter(view.context)
 
-//        recyclerview.adapter = adapter
-//        recyclerview.layoutManager = LinearLayoutManager(activity)
-//
-//        viewModel.allWords.observe(this, Observer<List<Word>> { words ->
-//            adapter.setWords(words)
-//        })
-    }
+        adapter.registerAdapterDataObserver(object : RecyclerView.AdapterDataObserver() {
+            override fun onChanged() {
+                super.onChanged()
+                emptyView.visibility = if (adapter.itemCount == 0) View.VISIBLE else View.INVISIBLE
+            }
+        })
+
+        recyclerview.adapter = adapter
+        recyclerview.layoutManager = LinearLayoutManager(activity)
+
+        viewModel.allWords.observe(this, Observer<List<Word>> { words ->
+            adapter.setWords(words)
+        })
+    }*/
 }

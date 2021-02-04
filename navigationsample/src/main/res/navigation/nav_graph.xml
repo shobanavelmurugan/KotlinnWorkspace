@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/screen1Fragment">
+    <fragment
+        android:id="@+id/screen1Fragment"
+        android:name="com.example.navigationsample.fragments.Screen1Fragment"
+        android:label="fragment_screen1"
+        tools:layout="@layout/fragment_screen1">
+        <action
+            android:id="@+id/action_screen1Fragment_to_screen2Fragment"
+            app:destination="@id/screen2Fragment" />
+        <action
+            android:id="@+id/action_screen1Fragment_to_screenOne"
+            app:destination="@id/screenOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/screen2Fragment"
+        android:name="com.example.navigationsample.fragments.Screen2Fragment"
+        android:label="Screen2Fragment">
+        <action
+            android:id="@+id/action_screen2Fragment_to_screnn3Fragment"
+            app:destination="@id/screnn3Fragment"
+            app:popUpTo="@id/screen1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screnn3Fragment"
+        android:name="com.example.navigationsample.fragments.Screen3Fragment"
+        android:label="Screnn3Fragment">
+        <action
+            android:id="@+id/action_screnn3Fragment_to_screen1Fragment"
+            app:destination="@id/screen1Fragment" />
+    </fragment>
+    <activity
+        android:id="@+id/screenOne"
+        android:name="com.example.navigationsample.ScreenOne"
+        android:label="ScreenOne">
+        <!-- <action
+             android:id="@+id/action_screenOne_to_screenThree"
+             app:destination="@id/screenTwo"/>-->
+    </activity>
+    <activity
+        android:id="@+id/screenTwo"
+        android:name="com.example.navigationsample.ScreenTwo"
+        android:label="ScreenTwo" />
+    <activity
+        android:id="@+id/screenThree"
+        android:name="com.example.navigationsample.ScreenThree"
+        android:label="activity_screen_three"
+        tools:layout="@layout/activity_screen_three" />
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.example.navigationsample.passingarguments.FragmentOne"
+        android:label="FragmentOne">
+        <action
+            android:id="@+id/action_fragmentOne_to_fragmentTwo"
+            app:destination="@id/fragmentTwo" />
+        <argument
+            android:name="test1"
+            app:argType="string"
+            android:defaultValue='""' />
+        <argument
+            android:name="test2"
+            app:argType="string"
+            android:defaultValue='""' />
+        <argument
+            android:name="test3"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.example.navigationsample.passingarguments.FragmentTwo"
+        android:label="FragmentTwo">
+        <action
+            android:id="@+id/action_fragmentTwo_to_fragmentThree"
+            app:destination="@id/fragmentThree" />
+        <argument
+            android:name="test1"
+            app:argType="string"
+            android:defaultValue='""' />
+        <argument
+            android:name="test2"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:name="com.example.navigationsample.passingarguments.FragmentThree"
+        android:label="FragmentThree" />
+</navigation>

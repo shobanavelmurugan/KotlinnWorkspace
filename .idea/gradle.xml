@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/camerax" />
             <option value="$PROJECT_DIR$/googlessologin" />
             <option value="$PROJECT_DIR$/mvvmrecyclerview" />
+            <option value="$PROJECT_DIR$/mycontact" />
+            <option value="$PROJECT_DIR$/navigationgraphanddeeplink" />
+            <option value="$PROJECT_DIR$/navigationsample" />
+            <option value="$PROJECT_DIR$/nestednavigationexample" />
             <option value="$PROJECT_DIR$/roomdatabase" />
+            <option value="$PROJECT_DIR$/roomdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
-        <option name="testRunner" value="PLATFORM" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>

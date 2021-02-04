@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/camerax" />
+            <option value="$PROJECT_DIR$/daylighttheme" />
             <option value="$PROJECT_DIR$/googlessologin" />
             <option value="$PROJECT_DIR$/mvvmrecyclerview" />
             <option value="$PROJECT_DIR$/mycontact" />

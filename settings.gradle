@@ -1,3 +1,4 @@
+include ':daylighttheme'
 include ':nestednavigationexample'
 include ':roomdemo'
 include ':navigationgraphanddeeplink'

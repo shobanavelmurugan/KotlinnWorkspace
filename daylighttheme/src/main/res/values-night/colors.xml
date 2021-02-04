@@ -3,7 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
-    <color name="daynight_textcolor">#6CBABB</color>
-    <color name="switchColor">#911DEE</color>
+    <color name="orange">#ff8200</color>
+    <color name="orangeDark">#f77000</color>
+    <color name="daynight_textColor">#ff8222</color>
+    <color name="switchColor">#BC2F1D</color>
 </resources>

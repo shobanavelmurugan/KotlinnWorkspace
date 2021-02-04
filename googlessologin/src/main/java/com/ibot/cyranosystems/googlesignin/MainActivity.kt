@@ -38,10 +38,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun configureGoogleSignIn() {
         mGoogleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-            .requestIdToken(getString(R.string.default_web_client_id))
-            //.requestIdToken("590914424684-7sc1csqpt57slnfrk2it1ck6e7r2u2tm.apps.googleusercontent.com")
+            .requestIdToken(getString(R.string.request_client_id))
             .requestEmail()
             .build()
+
         mGoogleSignInClient = GoogleSignIn.getClient(this, mGoogleSignInOptions)
     }
 
@@ -73,7 +73,6 @@ class MainActivity : AppCompatActivity() {
         val credential = GoogleAuthProvider.getCredential(acct.idToken, null)
         firebaseAuth.signInWithCredential(credential).addOnCompleteListener {
             if (it.isSuccessful) {
-
                 startActivity(HomeActivity.getLaunchIntent(this))
             } else {
                 Toast.makeText(this, "Google sign in failed:(", Toast.LENGTH_LONG).show()

@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/camerax" />
             <option value="$PROJECT_DIR$/daylighttheme" />
+            <option value="$PROJECT_DIR$/downloadablefont" />
             <option value="$PROJECT_DIR$/googlessologin" />
             <option value="$PROJECT_DIR$/mvvmrecyclerview" />
             <option value="$PROJECT_DIR$/mycontact" />
@@ -21,6 +22,9 @@
             <option value="$PROJECT_DIR$/nestednavigationexample" />
             <option value="$PROJECT_DIR$/roomdatabase" />
             <option value="$PROJECT_DIR$/roomdemo" />
+            <option value="$PROJECT_DIR$/shapesexample" />
+            <option value="$PROJECT_DIR$/viewbindingexample" />
+            <option value="$PROJECT_DIR$/workmanager" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
